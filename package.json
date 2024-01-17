@@ -4,7 +4,8 @@
     "description": "made by Timmy",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "build": "npm i",
+        "deploy": "npx playwright install && node bot"
     },
     "dependencies": {
       "@discordjs/rest": "^1.0.0",
