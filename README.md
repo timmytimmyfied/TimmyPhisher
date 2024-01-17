@@ -23,7 +23,7 @@ https://discord.gg/mFxdTZtbqT <<< Support
   
 11. Keep most settings as default, but make the following adjustments:
   Build Command: npm i
-  Start Command: node bot
+  Start Command: npm run deploy
 > Building the application on Onrender will take a while due to the package respobsible for auto-otp.
 
 12. Once the web app is live, go to https://discord.com/developers/applications/1186830876315758644/bot > OAuth2 and create a invite link. Enable commands and bot > admin access. (You may now invite the bot and use it however you desire, but remember that its your own responsibily)
